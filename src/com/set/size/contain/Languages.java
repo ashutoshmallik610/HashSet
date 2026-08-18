@@ -20,7 +20,6 @@ public class Languages {
 	}
 	
 	
-	
 	public void languages()
 	{
 		Languages l = new Languages();

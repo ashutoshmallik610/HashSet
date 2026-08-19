@@ -14,7 +14,9 @@ public class Driver {
 		set.add("mac-pro324");
 		
 		int iPhone17Hash = "iPhone17".hashCode();
+		System.out.println("hash: "+iPhone17Hash);
 		int iPhone17SpreadHash = iPhone17Hash ^ (iPhone17Hash >>> 16);
+		System.out.println(iPhone17SpreadHash);
 		int iPhone17Bucket = iPhone17SpreadHash & 15;
 		System.out.println("iPhone17 bucket number is : "+iPhone17Bucket);
 		

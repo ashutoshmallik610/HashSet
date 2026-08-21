@@ -43,7 +43,7 @@ public class Driver
 		employees.add(emp6);
 		employees.add(emp7);
 		employees.add(emp8);
-		employees.add(emp9); //Then it will handle by Treeify
+		employees.add(emp9); //Then it will handle by Treeification
 		
 		System.out.println(employees);
 		
